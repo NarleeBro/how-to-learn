@@ -7,20 +7,88 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  border: 1px solid greenyellow;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  align-items: center
+  position: relative;
+  background-color: #f2f2f2;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  border: 10px solid red;
   /* выше установили ограничения для секции */
+}
+.header__logo{
+  height: 32px;
+  width: 228px;
+  border: 1px solid red;
+}
+
+.logo__place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 100;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  width: 730px;
+  margin-left: 64px;
+  z-index: 100;
+  line-height: 96px;
+  font-size: 102px;
+  font-style: 600;
+}
+
+.header__subtitle {
+margin: 0;
+padding: 0;
+width: 338px;
+position: absolute;
+bottom: 30px;
+left: 64px;
+z-index: 100;
+line-height: 25px;
+font-size: 18px;
+font-style: normal;
+border: 1px solid red;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.header__main-illustration {
+width: 765px;
+height: 608px;
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: 100;
+border: 1px solid red;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
-}
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top:64px;
+  z-index: 0;
+  border: 1px solid red;
+  }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -29,3 +97,35 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.content {
+  margin: 0;
+  padding: 0;
+  }
+
+.description {
+  color: #000;
+}
+
+.digits {
+  color: #000;
+}
+
+.feynman {
+  color: white;
+  background-color:  #f2f2f2;
+}
+
+.kaufman {
+  color: white;
+  background-color:  #f2f2f2;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color:  #f2f2f2;
+  }
+
+
