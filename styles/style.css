@@ -7,8 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  border: 1px solid greenyellow;
-}
+  }
 
 .header {
   height: 100vh;
@@ -93,12 +92,11 @@ z-index: 2;
   margin-top: 80px;
 }
 
-/* .content {
+.content {
   margin: 0;
   padding: 0;
-  display: flex;
   position: relative;
-} */надо понять что делать с этим блоком и нужен ли он тут?
+}
 
 .description {
   color: #000;
@@ -168,7 +166,6 @@ z-index: 2;
   color: #000;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
 }
 
 .section-title {
@@ -176,7 +173,6 @@ z-index: 2;
   font-size: 60px;
   font-weight: 600;
   width: 60%;
-  border: 1px solid green;
 }
 
 .section-title__place_digitsfacts {
@@ -192,7 +188,6 @@ z-index: 2;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid green;
 }
 
 .section-subtitle__place_digitsfacts {
@@ -206,7 +201,6 @@ z-index: 2;
 .table {
   width: 1100px;
   list-style: none;
-  border: 1px solid blue;
 }
 
 .table__place_digitsfacts {
@@ -218,7 +212,6 @@ z-index: 2;
 
 .table__cell {
   width: 250px;
-  border: 1px solid yellow;
 }
 
 .table__cell__place_digitsfacts {
@@ -231,7 +224,6 @@ z-index: 2;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  border: 1px solid rgb(228, 10, 123);
 }
 
 .table__heading__place_digitsfacts {
@@ -243,7 +235,6 @@ z-index: 2;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid rgb(7, 184, 243);
 }
 
 .table__text__place_digitsfacts {
@@ -251,7 +242,6 @@ z-index: 2;
   padding: 0;
   margin-top: 20px;
   }
-
 
 .feynman {
   position: relative;
@@ -305,7 +295,6 @@ width: 867px;
 z-index: 1;
 }
 
-
 .kaufman {
   color: white;
   background-color:   #1f1f1f;
@@ -314,6 +303,7 @@ z-index: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
 }
 
 .section-title__theme_dark {
@@ -407,7 +397,7 @@ z-index: 1;
   line-height: 25px;
   font-style: 18px;
   font-weight: normal;
-  }
+}
 
 .footer__columns_content_info {
   }
@@ -418,7 +408,7 @@ z-index: 1;
   line-height: 30px;
   font-style: 18px;
   font-weight: 600;
-  }
+}
 
 .footer__column-links {
   margin: 0;
