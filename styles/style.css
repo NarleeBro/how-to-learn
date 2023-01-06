@@ -25,7 +25,7 @@
 .logo {
   height: 32px;
   width: 228px;
-  }
+}
 
 .logo__place_header {
   position: absolute;
@@ -46,16 +46,16 @@
 }
 
 .header__subtitle {
-margin: 0;
-padding: 0;
-width: 338px;
-position: absolute;
-bottom: 30px;
-left: 64px;
-z-index: 100;
-line-height: 25px;
-font-size: 18px;
-font-style: normal;
+  margin: 0;
+  padding: 0;
+  width: 338px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 100;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
 }
 
 .header__link {
@@ -65,12 +65,12 @@ font-style: normal;
 }
 
 .header__main-illustration {
-width: 765px;
-height: 608px;
-position: absolute;
-right: 0;
-bottom: 0;
-z-index: 2;
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -158,10 +158,6 @@ z-index: 2;
   margin: 30px 0;
  }
 
-
-
-
-
 .digits {
   color: #000;
   margin: 0;
@@ -241,7 +237,7 @@ z-index: 2;
   margin: 0;
   padding: 0;
   margin-top: 20px;
-  }
+}
 
 .feynman {
   position: relative;
@@ -251,7 +247,7 @@ z-index: 2;
   color: #000000;
   background-color:  #f2f2f2;
   min-height: 890px;
-  }
+}
 
 .feynman__title {
   margin: 0;
@@ -284,15 +280,20 @@ z-index: 2;
   font-size: 36px;
   font-weight: normal;
   z-index: 100;
+  color: #2f80ed;
+}
+
+.feynman__link_text-color {
+  color: #2f80ed;
 }
 
 .feynman__main-illustration {
-position: absolute;
-bottom: 0;
-left: 0;
-height: 637px;
-width: 867px;
-z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 637px;
+  width: 867px;
+  z-index: 1;
 }
 
 .kaufman {
@@ -304,6 +305,7 @@ z-index: 1;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
+  padding-bottom: 90px;
 }
 
 .section-title__theme_dark {
@@ -337,6 +339,7 @@ z-index: 1;
   margin: 0;
   padding: 0;
   margin-top: 80px;
+  margin-right: auto;
   width: 200px;
   z-index: 100;
 }
@@ -400,7 +403,7 @@ z-index: 1;
 }
 
 .footer__columns_content_info {
-  }
+}
 
 .footer__column-heading {
   margin: 0;
@@ -424,6 +427,7 @@ z-index: 1;
   line-height: 30px;
   font-style: 18px;
   font-weight: normal;
+  color: #2f80ed;
 }
 
 .footer__column_content_social {
@@ -433,6 +437,10 @@ z-index: 1;
   height: 16px;
   width: 16px;
   margin-right: 10px;
+}
+
+.footer__column-link_text_change {
+  color: #2f80ed;
 }
 
 .footer__column-link_text_change:hover {
