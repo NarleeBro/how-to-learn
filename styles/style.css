@@ -27,7 +27,7 @@
   width: 228px;
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -306,7 +306,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-  margin: 0 auto 90px;
+  margin: 0 auto;
 }
 
 .table__cell_theme_dark {
