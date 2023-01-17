@@ -421,13 +421,13 @@
   margin-right: 10px;
 }
 
-.header__square-pic_rotation{
+.header__square-pic_rotation {
   animation: rotation 20s infinite linear;
 }
 
-.kaufman__triangle_rotation{
+.kaufman__triangle_rotation {
   animation: rotation 20s infinite linear;
-  }
+}
 
 .techniques {
   width: 80%;
@@ -466,8 +466,7 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content:flex-start;
-
+  justify-content: flex-start;
 }
 .cards__item {
   width: 240px;
@@ -506,3 +505,49 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+.video {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.section-title_theme_clips {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 100px auto 0;
+  padding: 0;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-subtitle_theme_clips {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  margin: 20px auto 0;
+}
+
+.video__iframes {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
+}
+
+.video__iframe:last-child {
+  margin-right: 0;
+} /* Убирает правый отсутп 20px у последнего элемента */
