@@ -115,7 +115,7 @@
   position: relative;
   left: 10%;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 0;
   width: 80%;
 }
 
@@ -231,6 +231,7 @@
   color: #000000;
   background-color: #f2f2f2;
   min-height: 890px;
+  margin-bottom: 100px;
 }
 
 .feynman__title {
@@ -540,14 +541,200 @@
   width: 1050px;
   display: flex;
   justify-content: space-between;
-}
+  border: 1px solid red;
+  position: relative;
+  }
 
 .video__iframe {
   width: 515px;
-  height: 316px;
+  min-height: 316px;
   margin-right: 20px;
-}
+  z-index: 10;
+  position: absolute;
+  overflow: visible;
+  }
 
 .video__iframe:last-child {
   margin-right: 0;
 } /* Убирает правый отсутп 20px у последнего элемента */
+
+.oakley {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  }
+
+  .two-columns_history_barbara {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 10%;
+    margin-top: 100px;
+    margin-bottom: 0;
+    width: 80%;
+    margin-top: 160px;
+  }
+
+  .two-columns__brief_history_barbara {
+    width: 175px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2f80ed;
+  }
+
+  .two-columns__main-text_history_barbara {
+    width: 80%;
+    min-width: 784px;
+    margin: 0;
+    padding: 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  .two-columns__paragraph_history_barbara {
+    padding: 0;
+    margin: 0 0 30px 0;
+    margin-top: 160px;
+  }
+
+
+.khan {
+  margin: 0;
+  padding: 0;
+  color:#000;
+  background-color: #f2f2f2;
+  }
+
+.khan__container {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  border: 1px solid red;
+}
+
+.khan__author {
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  border: 1px solid green;
+  margin-top: 105px;
+}
+
+.khan__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  line-height: 1.15px;
+  font-size: 60px;
+  font-weight: 600;
+  border: 1px solid blue;
+}
+
+.khan__quote {
+  margin: 0;
+  padding: 0;
+  width: 790px;
+  margin-bottom: 36px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  border: 1px solid yellow;
+}
+
+.khan__quote__author {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  line-height: 1.15px;
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid blueviolet;
+}
+
+.khan__quote-author-subline {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  margin: 0;
+  padding: 0;
+  }
+
+.khan__book-pic {
+  margin: 0;
+  padding: 0;
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+  margin-top: 68px;
+
+  }
+
+.khan__buy-link {
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: start;
+  color:#2f80ed
+}
+
+.resources {
+  margin: 0;
+  padding: 0;
+  color:#000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-title_good_resource {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  margin-top: 100px;
+}
+
+.section-subtitle_good_resource {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.resources__logo-zon {
+  margin: 0;
+  padding: 0;
+  width: 1100;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 217px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resources__link {
+  margin: 0;
+  padding: 0;
+  width: 270px;
+  height: 38px;
+}
+
+.all__link:hover {
+opacity: 0.4;
+transition: 1s;
+}  /* Для описания общих правил для ссылок */
