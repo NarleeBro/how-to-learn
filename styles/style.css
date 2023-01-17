@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0 deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -20,6 +29,7 @@
   color: #000;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 .logo {
@@ -409,4 +419,8 @@
   height: 16px;
   width: 16px;
   margin-right: 10px;
+}
+
+.header__square-pic_rotation, .kaufman__triangle_rotation{
+animation: rotation 20s infinite linear;
 }
