@@ -446,6 +446,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
 
 .section-subtitle_theme_white {
@@ -458,6 +459,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
 
 .cards {
@@ -487,6 +489,7 @@
   margin-right: 40px;
   margin-bottom: 43px;
   margin-left: 40px;
+  z-index: 1;
 }
 .cards__title {
   margin: 0;
@@ -496,6 +499,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  z-index: 10;
 }
 .cards__description {
   margin: 0;
@@ -505,6 +509,7 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 10;
 }
 
 .video {
@@ -549,9 +554,7 @@
   min-height: 316px;
   margin-right: 20px;
   z-index: 10;
-  /* position: absolute;
-  overflow: visible; */
-}
+  }
 
 .video__iframe:last-child {
   margin-right: 0;
@@ -625,6 +628,7 @@
   font-size: 30px;
   font-weight: normal;
   margin-top: 105px;
+  z-index: 10;
 }
 
 .khan__title {
@@ -633,6 +637,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  z-index: 10;
 }
 
 .khan__quote {
@@ -644,6 +649,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 10;
 }
 
 .khan__quote__author {
@@ -652,6 +658,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  z-index: 10;
 }
 
 .khan__quote-author-subline {
@@ -661,6 +668,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
+  z-index: 10;
 }
 
 .khan__book-container {
@@ -679,6 +687,7 @@
   margin-bottom: -200px;
   object-fit: contain;
   object-position: left;
+  z-index: 1;
 }
 
 .khan__buy-link {
@@ -691,6 +700,7 @@
   color: #2f80ed;
   text-decoration: none;
   margin-left: -200px;
+  z-index: 10;
   }
 
 .resources {
@@ -707,6 +717,7 @@
   padding: 0;
   width: 60%;
   margin-top: 100px;
+  z-index: 10;
 }
 
 .section-subtitle_good_resource {
@@ -714,6 +725,7 @@
   padding: 0;
   width: 60%;
   margin-top: 20px;
+  z-index: 10;
 }
 
 .resources__logo-zon {
@@ -735,6 +747,7 @@
   padding: 0;
   width: 270px;
   height: 38px;
+  z-index: 1;
 }
 
 .all__link:hover {
