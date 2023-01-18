@@ -541,79 +541,81 @@
   width: 1050px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   position: relative;
-  }
+}
 
 .video__iframe {
   width: 515px;
   min-height: 316px;
   margin-right: 20px;
   z-index: 10;
-  position: absolute;
-  overflow: visible;
-  }
+  /* position: absolute;
+  overflow: visible; */
+}
 
 .video__iframe:last-child {
   margin-right: 0;
-} /* Убирает правый отсутп 20px у последнего элемента */
+}
 
 .oakley {
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
-  }
+}
 
-  .two-columns_history_barbara {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    left: 10%;
-    margin: 0;
-    width: 80%;
-    margin-top: -60px;
-  }
+.two-columns_history_barbara {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 10%;
+  margin: 0;
+  width: 80%;
+  margin-top: -60px;
+}
 
-  .two-columns__brief_history_barbara {
-    width: 175px;
-    margin: 0;
-    padding: 0;
-    line-height: 1.2;
-    font-size: 18px;
-    font-weight: normal;
-    color: #2f80ed;
-    margin-top: 160px;
-  }
+.two-columns__brief_history_barbara {
+  width: 175px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  margin-top: 160px;
+}
 
-  .two-columns__main-text_history_barbara {
-    width: 80%;
-    min-width: 784px;
-    margin: 0;
-    padding: 0;
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-  }
+.two-columns__main-text_history_barbara {
+  width: 80%;
+  min-width: 784px;
+  margin: 0;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
 
-  .two-columns__paragraph_history_barbara {
-    padding: 0;
-    margin: 0 0 30px 0;
-    margin-top: 160px;
-  }
-
+.two-columns__paragraph_history_barbara {
+  padding: 0;
+  margin: 0 0 30px 0;
+  margin-top: 160px;
+}
 
 .khan {
   margin: 0;
   padding: 0;
-  color:#000;
+  color: #000;
   background-color: #f2f2f2;
-  }
+}
 
 .khan__container {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 80%;
-  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .khan__author {
@@ -622,45 +624,41 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-  border: 1px solid green;
   margin-top: 105px;
 }
 
 .khan__title {
   margin: 0;
   padding: 0;
-  margin-bottom: 50px;
-  line-height: 1.15px;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  border: 1px solid blue;
 }
 
 .khan__quote {
   margin: 0;
   padding: 0;
   width: 790px;
+  margin-top: 50px;
   margin-bottom: 36px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid yellow;
 }
 
 .khan__quote__author {
   margin: 0;
   padding: 0;
-  margin-bottom: 10px;
-  line-height: 1.15px;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  border: 1px solid blueviolet;
 }
 
 .khan__quote-author-subline {
   margin: 0;
   padding: 0;
-  line-height: 1.15px;
+  margin-top: 10px;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
 }
@@ -668,7 +666,9 @@
 .khan__book-container {
   margin: 0;
   padding: 0;
-  }
+  display: flex;
+  margin-top: 68px;
+}
 
 .khan__book-pic {
   margin: 0;
@@ -676,9 +676,10 @@
   width: 620px;
   height: 608px;
   margin-right: 48px;
-  margin-top: 68px;
-
-  }
+  margin-bottom: -200px;
+  object-fit: contain;
+  object-position: left;
+}
 
 .khan__buy-link {
   margin: 0;
@@ -687,13 +688,15 @@
   font-size: 30px;
   font-weight: normal;
   text-align: start;
-  color:#2f80ed
-}
+  color: #2f80ed;
+  text-decoration: none;
+  margin-left: -200px;
+  }
 
 .resources {
   margin: 0;
   padding: 0;
-  color:#000;
+  color: #000;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -735,6 +738,6 @@
 }
 
 .all__link:hover {
-opacity: 0.4;
-transition: 1s;
-}  /* Для описания общих правил для ссылок */
+  opacity: 0.4;
+  transition: 1s;
+} /* Для описания общих правил для ссылок */
