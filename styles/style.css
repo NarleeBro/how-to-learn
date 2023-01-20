@@ -467,7 +467,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-    display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 0 100px;
@@ -544,14 +544,14 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  }
+}
 
 .video__iframe {
   width: 515px;
   min-height: 316px;
   margin-right: 20px;
   z-index: 10;
-  }
+}
 
 .video__iframe:last-child {
   margin-right: 0;
@@ -563,7 +563,7 @@
   background-color: #f2f2f2;
 }
 
-.two-columns_history_barbara {
+.two-columns_history-barbara {
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -573,7 +573,7 @@
   margin-top: -60px;
 }
 
-.two-columns__brief_history_barbara {
+.two-columns__brief_history-barbara {
   width: 175px;
   margin: 0;
   padding: 0;
@@ -584,7 +584,7 @@
   margin-top: 160px;
 }
 
-.two-columns__main-text_history_barbara {
+.two-columns__main-text_history-barbara {
   width: 80%;
   min-width: 784px;
   margin: 0;
@@ -594,7 +594,7 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph_history_barbara {
+.two-columns__paragraph_history-barbara {
   padding: 0;
   margin: 0 0 30px 0;
   margin-top: 160px;
@@ -698,7 +698,7 @@
   text-decoration: none;
   margin-left: -200px;
   z-index: 10;
-  }
+}
 
 .resources {
   margin: 0;
@@ -709,7 +709,7 @@
   justify-content: center;
 }
 
-.section-title_good_resource {
+.section-title_theme_good-resource {
   margin: 0;
   padding: 0;
   width: 60%;
@@ -717,7 +717,7 @@
   z-index: 10;
 }
 
-.section-subtitle_good_resource {
+.section-subtitle_theme_good-resource {
   margin: 0;
   padding: 0;
   width: 60%;
@@ -747,7 +747,7 @@
   z-index: 1;
 }
 
-.all__link:hover {
+.link__all:hover {
   opacity: 0.4;
   transition: 1s;
 } /* Для описания общих правил для ссылок */
