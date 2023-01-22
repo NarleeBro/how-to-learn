@@ -1,0 +1,4 @@
+.link__all:hover {
+  opacity: 0.4;
+  transition: 1s;
+}

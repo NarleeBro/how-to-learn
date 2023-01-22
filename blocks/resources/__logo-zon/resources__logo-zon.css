@@ -1,0 +1,13 @@
+.resources__logo-zon {
+  margin: 0;
+  padding: 0;
+  width: 1100;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 217px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
