@@ -4,8 +4,7 @@
   width: 620px;
   height: 608px;
   margin-right: 48px;
-  margin-bottom: -200px;
-  object-fit: contain;
-  object-position: left;
+  object-fit: cover;
+  object-position: top;
   z-index: 1;
 }
